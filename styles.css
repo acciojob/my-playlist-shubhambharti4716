@@ -32,12 +32,17 @@ h2 {
   display: grid;
   justify-content: center;
   width: 80vw;
-  height: 70vh;
+  height: auto;
   border: 2px solid black;
   border-radius: 10px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
 }
-.container > h2 {
-}
+div .player_one,
+.player_two {
+      background-color: rgb(255, 255, 255);
+      padding: 10px;
+      border-radius: 5px;
+	  width: 72vw;
+    }
