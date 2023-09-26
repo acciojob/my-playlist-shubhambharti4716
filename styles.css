@@ -39,10 +39,19 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
-div .player_one,
+.player_one,
 .player_two {
-      background-color: rgb(255, 255, 255);
-      padding: 10px;
-      border-radius: 5px;
-	  width: 72vw;
-    }
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 72vw;
+}
+.player_one {
+  padding-top: 25px;
+}
+.player_two {
+  padding-bottom: 30px;
+}
+.container > p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
